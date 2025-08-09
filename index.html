@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TU NOMBRE AQUÍ -->
+    <title>Max Andrade | Desarrollador Web</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FUENTES E ICONOS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- ==================== NAVEGACIÓN ==================== -->
+    <header class="header">
+        <nav class="nav container">
+            <!-- TU NOMBRE AQUÍ -->
+            <a href="#" class="nav__logo">Jordan Andrade Contreras| Desarrollador Web</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#sobre-mi" class="nav__link">Sobre Mí</a></li>
+                    <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== INICIO (HERO) ==================== -->
+        <section class="inicio" id="inicio">
+            <div class="inicio__container container">
+                <div class="inicio__content">
+                    <!-- TU NOMBRE Y TÍTULO AQUÍ -->
+                    <h1>Hola, soy Max Andrade</h1>
+                    <h3>Desarrollador Web</h3>
+                    <p>Convierto ideas en soluciones web atractivas y funcionales. Especializado en crear experiencias digitales para pequeños negocios y emprendedores.</p>
+                    <a href="#proyectos" class="button">Ver mis Proyectos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SOBRE MÍ ==================== -->
+        <section class="sobre-mi section" id="sobre-mi">
+            <div class="sobre-mi__container container">
+                <h2 class="section__title">Sobre Mí</h2>
+                <div class="sobre-mi__content">
+                    <div class="sobre-mi__text">
+                        <!-- TU DESCRIPCIÓN PERSONAL AQUÍ -->
+                        <p>Soy un estudiante de Computación e Informática con una gran pasión por la tecnología y el desarrollo de software. Mi enfoque está en la creación de aplicaciones web intuitivas y eficientes, utilizando tecnologías como <strong>HTML, CSS, JavaScript, PHP y MySQL.</strong></p>
+                        <p>Disfruto resolviendo problemas y aprendiendo constantemente para mantenerme al día con las últimas tendencias de la industria. Mi objetivo es aplicar mis habilidades para construir herramientas que aporten valor real a los negocios y a sus usuarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PROYECTOS ==================== -->
+        <section class="proyectos section" id="proyectos">
+            <h2 class="section__title">Mis Proyectos</h2>
+            <div class="proyectos__container container">
+
+                <!-- PROYECTO 1: CAFÉ ANDINO -->
+                <div class="proyecto__card">
+                    <!-- GUARDA TU IMAGEN EN LA CARPETA /img -->
+                    <img src="img/proyecto-cafe-andino.jpg" alt="Landing Page Café Andino" class="proyecto__img">
+                    <div class="proyecto__content">
+                        <h3>Landing Page - Café Andino</h3>
+                        <p>Página de aterrizaje moderna y responsiva para una cafetería ficticia, diseñada para atraer clientes y mostrar su menú de forma visualmente atractiva.</p>
+                        <div class="proyecto__tecnologias">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="proyecto__links">
+                            <!-- ENLACE A TU DEMO EN NETLIFY -->
+                            <a href="https://cafe-andino-demo.netlify.app" target="_blank" class="button-link">Ver Demo <i class='bx bx-link-external'></i></a>
+                            <!-- ENLACE A TU REPOSITORIO EN GITHUB -->
+                            <a href="https://github.com/MaxFreelance509131/cafe-andino-landing-page" target="_blank" class="button-link-outline">Ver Código <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROYECTO 2: SISTEMA DE RESERVAS -->
+                <div class="proyecto__card">
+                    <!-- GUARDA TU IMAGEN EN LA CARPETA /img -->
+                    <img src="img/proyecto-reservas.jpg" alt="Sistema de Reservas" class="proyecto__img">
+                    <div class="proyecto__content">
+                        <h3>Sistema de Reservas Online</h3>
+                        <p>Mini-sistema web funcional para un salón de belleza que permite a los usuarios registrarse, iniciar sesión, y agendar citas, con confirmación por email.</p>
+                        <div class="proyecto__tecnologias">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="proyecto__links">
+                            <!-- SI LO DESPLIEGAS EN UN HOSTING, PON EL ENLACE AQUÍ -->
+                            <a href="#" target="_blank" class="button-link-disabled">Demo (Local) <i class='bx bx-link-external'></i></a>
+                            <!-- ENLACE A TU REPOSITORIO EN GITHUB -->
+                            <a href="https://github.com/MaxFreelance509131/salon-belleza-reservas" target="_blank" class="button-link-outline">Ver Código <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AQUÍ PUEDES AÑADIR MÁS PROYECTOS EN EL FUTURO -->
+
+            </div>
+        </section>
+
+        <!-- ==================== CONTACTO ==================== -->
+        <section class="contacto section" id="contacto">
+            <h2 class="section__title">Hablemos</h2>
+            <div class="contacto__container container">
+                <p>¿Tienes un proyecto en mente o quieres trabajar juntos? ¡No dudes en contactarme!</p>
+                <!-- TU CORREO AQUÍ -->
+                <a href="mailto:compumax509131@gmail.com" class="button">Enviar un Correo</a>
+                <div class="contacto__sociales">
+                    <!-- TUS ENLACES A GITHUB Y LINKEDIN AQUÍ -->
+                    <a href="https://github.com/MaxFreelance509131" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/jordan-andrade-contreras-a60026378/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <!-- TU NOMBRE Y AÑO AQUÍ -->
+            <p>&copy; 2025 Max Andrade. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
